@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+  text-align: center;
+}
+
+#npmsh{
+    max-width: 100px;
+    position: relative;
+    align-self: center;
+    
+   
+    
+}
+
+#searchbar{
+   
+    position: left;
+    padding-left: 30px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 45px;
+    background-color:rgb(240, 240, 240);
+    padding-left: 4em;
+    height: 40px;
+    
+  
+  
+}
+
+nav ul {
+  display:flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+span{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#telef img{
+ max-width: 40px;
+ display: flex;
+ align-self: flex-start;
+}
+
+
+.kouk{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    }
+
+    .kouk img{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+      
+
+#megal{
+    max-width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+
+header > div:nth-of-type(1) {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    font-weight: bold;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 30px;
+    margin-right: 1rem;
+  }
+
+  form label{
+      color: rgba(0,0,0,.05);
+  }
+
+  form input{
+      color: rgba(0,0,0,.05);
+
+  }
+
+
+  form button {
+    background-color: #fb3e44;
+     color: white;
+     border:none;
+     width: 100px;
+     height: 50px;
+     letter-spacing: 0.3px;
+     
+  }
+
+  .righty {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: row;
+     height: 100%;
+  }
+
+  #butoon{
+    background-color: #fb3e44;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    margin: 0px 50px 0px 50px;
+    color: white;
+    border:none;
+    width: 140px;
+    height: 50px;
+  }
+  
+  #butoons{
+    background-color:rgba(232,217,217,.3);
+    color: black;
+    margin: 0px 50px 0px 50px;
+    border:none;
+    width: 140px;
+    height: 50px;
+  }
+
+  #lool{
+    background-color: rgba(232,217,217,.3);
+    height: 600px;
+    display: flex;
+    flex-direction: column;justify-content: center;    
+  }
+
+  #colr {
+    width: 38%;
+    background-color: rgba(219, 185, 81, 0.4);
+    transform: skew(9deg,0deg);
+    font-style: italic;
+    margin-top : 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+  }
+
+  #logo_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  #pam{
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin: 2px 0;
+      display: inline-block;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      
+     
+      
+  }
+
+.pep {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #cccccc;
+  
+    margin: 10px;
+}
+
+.clro {
+    color: #ED1C24;
+    display: flex;
+
+}
+
+#telef{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 75px 0;
+  display: flex;
+  justify-content:center;
+  flex-flow: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#telef p{
+    text-align: left;
+  }
+
+  #telef h1 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #gamo{
+    display: inline-flex;
+    justify-content: flex-end;
+   
+    
+  }
+
+  #bolder{
+    text-decoration: none;
+    box-sizing: border-box;
+    font-weight: bold;
+  } 
+ 
+  #gamo a{
+    text-decoration: none;
+  }
+  
+  #pam img{
+    height: 30px;
+    
+  }
+
+  #bolder{
+    display: flex ;
+    background: white;
+    color: black;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #loginbtn{
+    background: white;
+    color:black;
+    font-weight: bold;
+    align-self: center;
+
+
+  }
+
+  #blacka{
+    background-color: black;
+    color: white;
+    width: 35%;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    position: relative;
+    top:30px;
+    right:3px;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+  }
+
+
+#bigger {
+   font-size: 4em;
+   
+ }
+
+ #changer {
+   position: absolute;
+   margin-left: 1em;
+   margin-top: 1.2em;
+ }
